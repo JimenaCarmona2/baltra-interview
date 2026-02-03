@@ -1,0 +1,5 @@
+venv/
+.env
+*.csv
+create_skill.py
+delete_skill.py
