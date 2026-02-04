@@ -154,7 +154,7 @@ def send_email(html_content):
         server.login(smtp_user, smtp_password)
         server.send_message(msg)
     
-    print(f"Email enviado exitosamente a {smtp_user}")
+    print(f"Email enviado exitosamente a {smtp_recipient}")
 
 def send_monthly_report():
     html_content, _ = generate_report()
